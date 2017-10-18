@@ -32,5 +32,10 @@ readCode str
 //isDigit
 //digitToInt
 
+maybe :: (a -> b) b (Maybe a) -> b
+maybe converter defaultValue value
+	| isNothing value = defaultValue
+	| otherwise = converter(fromJust value)
 
-Start = readCode "1234"
+
+Start = maybe ((+) 10) 7 (Just 5)
