@@ -19,5 +19,18 @@ matches firstList secondList = matchesForSorted (sort firstList) (sort secondLis
 			| y < x = matchesForSorted [x:xs] ys
 			| x == y = 1 + matchesForSorted xs ys
 
+stringToList :: String -> [Char]
+stringToList str = [ char \\ char <-: str ]
 
-Start = matches [6,6,6,1] [6,6,5,1]
+readCode :: String -> Maybe [Int]
+readCode str
+	| length (strArray) == 4 && and (map isDigit strArray) = Just (map digitToInt strArray)
+	| otherwise = Nothing
+		where
+			strArray = stringToList str
+
+//isDigit
+//digitToInt
+
+
+Start = readCode "1234"
