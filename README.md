@@ -1,6 +1,9 @@
 # MatermindClean
 Homework in Clean programming language for ELTE Functional Programming course
 
+Exercise description in Hungarian:
+----
+
 <div style="margin-left:0px; background: lightgray"><h1 id="beadandó-mastermind">1. beadandó: Mastermind</h1>
 <p><em>Használható segédanyagok egy <a href="https://bead.inf.elte.hu/files/clean/">külön oldalon</a> találhatóak.</em></p>
 <p><em>Tekintve, hogy a tesztesetek, bár odafigyelés mellett íródnak, nem fedik le minden esetben a függvény teljes működését, határozottan javasolt még külön próbálgatni a megoldásokat beadás előtt, vagy megkérdezni a felügyelőket!</em></p>
