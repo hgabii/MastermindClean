@@ -1,5 +1,5 @@
 # MatermindClean
-Homework in Clean programming language for ELTE Functional Programming course
+Homework in Clean programming language for ELTE Functional Programming course.
 
 Exercise description in Hungarian:
 ----
